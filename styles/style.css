@@ -297,3 +297,24 @@ li span {
 .step-2 .giftbox .box {
   animation: flyDown 2s ease-in 0.05s forwards;
 }
+
+#countdown-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4081; /* Bright color for emphasis */
+  text-align: center;
+  margin-bottom: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
